@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/library","sap/uxap/BlockBase"],function(a,e){"use strict";var r=a.mvc.ViewType;var i=e.extend("com.infocus.GraphitePms.SharedBlocks.appraisal.SelfBlock",{});return i});

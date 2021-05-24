@@ -1,0 +1,26 @@
+<mvc:View controllerName="com.infocus.GraphitePms.controller.LandingPage" displayBlock="true"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:core="sap.ui.core"
+  xmlns:grid="sap.ui.layout.cssgrid"
+  xmlns:mvc="sap.ui.core.mvc">  
+  <App id="idAppControl">
+    <pages>
+      <Page showHeader="false">
+        <content>
+          <Carousel class="sapUiContentPadding" loop="true" height="40%">
+            <Image src="{img>/banners/pic1}" />
+            <Image src="{img>/banners/pic2}"/>
+          </Carousel>
+        </content>
+        <OverflowToolbar id="otbFooter">
+          <ToolbarSpacer/>
+          <Button type="Emphasized" text="Employee Self Appraisal" press="onEmpPress" />
+          <ToolbarSpacer/>
+          <Button type="Emphasized" text="For Managers" press="onMgrPress"/>
+          <ToolbarSpacer/>
+        </OverflowToolbar>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

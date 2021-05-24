@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/library","sap/uxap/BlockBase"],function(e,a){"use strict";var i=e.mvc.ViewType;var r=a.extend("com.infocus.GraphitePms.SharedBlocks.appraisal.AchivementBlock",{});return r});

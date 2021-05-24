@@ -1,0 +1,34 @@
+<mvc:View controllerName="com.infocus.GraphitePms.controller.MainView"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:tnt="sap.tnt"
+  xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+
+  <tnt:ToolPage id="toolpage">
+    <tnt:sideContent>
+      <tnt:SideNavigation selectedKey="scont2" id="_IDGenSideNavigation1" expanded="true" itemSelect=".onListItemPress">
+        <tnt:NavigationList id="_IDGenNavigationList1">
+          <tnt:NavigationListItem id="_IDGenNavigationListItem2" text="Self Appraisal" key="scont2" icon="sap-icon://example"/>
+          <tnt:NavigationListItem id="_IDGenNavigationListItem1" text="Performance Analysis" key="scont1" icon="sap-icon://puzzle"/>
+          <tnt:NavigationListItem id="_IDGenNavigationListItem3" text="Appraisal of Critical Attributes" key="scont3" icon="sap-icon://unwired"/>
+        </tnt:NavigationList>
+      </tnt:SideNavigation>
+    </tnt:sideContent>
+    <tnt:mainContents>
+      <NavContainer id="pageContainer">
+        <pages>
+          <ScrollContainer id="scont2" horizontal="false" vertical="true" height="100%">
+            <mvc:XMLView id="_IDGenXMLView1" viewName="com.infocus.GraphitePms.view.SelfAppraisal"/>
+          </ScrollContainer>
+          <ScrollContainer id="scont1" horizontal="false" vertical="true" height="100%">
+            <mvc:XMLView id="_IDGenXMLView2" viewName="com.infocus.GraphitePms.view.PerformanceAnalysis"/>
+          </ScrollContainer>
+          <ScrollContainer id="scont3" horizontal="false" vertical="true" height="100%">
+            <mvc:XMLView id="_IDGenXMLView3" viewName="com.infocus.GraphitePms.view.CriticalAppraisal"/>
+          </ScrollContainer>
+        </pages>
+      </NavContainer>
+    </tnt:mainContents>
+  </tnt:ToolPage>
+
+</mvc:View>
