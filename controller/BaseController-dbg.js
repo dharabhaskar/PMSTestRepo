@@ -3,12 +3,12 @@ sap.ui.define(
         "sap/ui/core/mvc/Controller",
         "sap/ui/core/routing/History",
         "sap/ui/core/UIComponent",
-        "com/infocus/GraphitePms/model/formatter"
+        "com/infocus/MyPMS/model/formatter"
     ],
     function (Controller, History, UIComponent, formatter) {
         "use strict";
 
-        return Controller.extend("com.infocus.GraphitePms.controller.BaseController", {
+        return Controller.extend("com.infocus.MyPMS.controller.BaseController", {
             formatter: formatter,
 
             /**

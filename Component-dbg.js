@@ -1,9 +1,9 @@
 sap.ui.define(
-    ["sap/ui/core/UIComponent", "sap/ui/Device", "com/infocus/GraphitePms/model/models"],
+    ["sap/ui/core/UIComponent", "sap/ui/Device", "com/infocus/MyPMS/model/models"],
     function (UIComponent, Device, models) {
         "use strict";
 
-        return UIComponent.extend("com.infocus.GraphitePms.Component", {
+        return UIComponent.extend("com.infocus.MyPMS.Component", {
             metadata: {
                 manifest: "json"
             },

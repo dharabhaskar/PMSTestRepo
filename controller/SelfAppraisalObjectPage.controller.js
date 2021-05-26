@@ -1,1 +1,0 @@
-sap.ui.define(["com/infocus/GraphitePms/controller/BaseController","sap/ui/model/json/JSONModel","sap/ui/model/Filter","sap/ui/model/FilterOperator"],function(o,e,i,n){"use strict";return o.extend("com.infocus.GraphitePms.controller.ApprovalMain",{onInit:function(){}})});

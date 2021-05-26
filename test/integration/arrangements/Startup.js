@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";return t.extend("com.infocus.GraphitePms.test.integration.arrangements.Startup",{iStartMyApp:function(){this.iStartMyUIComponent({componentConfig:{name:"com.infocus.GraphitePms",async:true,manifest:true}})}})});
+sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";return t.extend("com.infocus.MyPMS.test.integration.arrangements.Startup",{iStartMyApp:function(){this.iStartMyUIComponent({componentConfig:{name:"com.infocus.MyPMS",async:true,manifest:true}})}})});

@@ -4,7 +4,7 @@ sap.ui.require([
 ], function (Opa5, Press) {
   "use strict";
 
-  var sViewName = "com.infocus.GraphitePms.view.MainView";
+  var sViewName = "com.infocus.MyPMS.view.MainView";
 
   Opa5.createPageObjects({
     onTheMainPage: {
@@ -27,12 +27,12 @@ sap.ui.require([
             return this.waitFor({
               controlType: "sap.m.Title",
               properties: {
-                text: "com.infocus.GraphitePms"
+                text: "com.infocus.MyPMS"
               },
               success: function() {
                 Opa5.assert.ok(true, "The page shows the correct title");
               },
-              errorMessage: "App does not show the expected title com.infocus.GraphitePms"
+              errorMessage: "App does not show the expected title com.infocus.MyPMS"
             });
         }
       }
